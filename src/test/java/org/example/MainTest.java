@@ -1,3 +1,5 @@
+package org.example;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -5,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumeFalse;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
-public class WeightTest {
+class MainTest {
     @Test
     @DisplayName("Test number #1")
     void falseTest1() {
